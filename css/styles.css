@@ -1,0 +1,144 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  background-color: #f6f3e3;
+  color: #512e40;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Capriola";
+  font-weight: 900;
+}
+
+.big-heading {
+  font-size: 3rem;
+  font-family: "Capriola";
+  font-weight: 900;
+  padding: 5% 10%;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.3rem;
+}
+
+hr {
+  border: dotted #512e40 6px;
+  border-bottom: none;
+  width: 4%;
+}
+
+/* Containers */
+
+.soap-logo {
+  width: 300px;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Capriola";
+  font-weight: 400;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 0%;
+  text-align: center;
+}
+
+/* Features Section */
+
+.icon {
+  color: #879c6b;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #bfd89b;
+}
+
+/* Shop Section  */
+
+.section-heading {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+#shop {
+  padding: 100px;
+}
+
+.shopColumn {
+  padding: 3% 2%;
+}
+
+/* Footer Section */
+
+.social-icons {
+  margin: 20px 10px;
+  color: #4b4949;
+}
+
+.social-icons:hover {
+  color: #8f8f8f;
+}
+
+.copyright {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 770px) {
+  .big-heading {
+    font-size: 1.5rem;
+  }
+
+  .feature-title {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .section-heading {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
+  #soaps {
+    padding: 60px;
+  }
+
+  .soap-logo {
+    width: 170px;
+  }
+
+  .card-body h2 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .soap-logo {
+    width: 150px;
+  }
+}
