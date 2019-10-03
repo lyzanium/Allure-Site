@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat";
+  font-family: "Montserrat", serif;
   text-align: center;
   background-color: #f6f3e3;
   color: #512e40;
@@ -10,7 +10,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Capriola";
+  font-family: "Capriola", serif;
   font-weight: 900;
 }
 
@@ -26,7 +26,7 @@ h4 {
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: "Capriola";
+  font-family: "Capriola", serif;
   font-weight: 400;
 }
 
