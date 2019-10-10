@@ -71,12 +71,28 @@ input {
 }
 
 @media screen and (max-width: 770px) {
+
+  #title .container-fluid {
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-right: 30px;
+    padding-left: 10px;
+  }
+
+  .navbar {
+    padding-bottom: 0;
+  }
+
+  .container {
+    margin-top: 0;
+  }
+
   p {
     font-size: 1rem;
   }
 
   .soap-logo {
-    width: 170px;
+    width: 150px;
   }
 
   h2 {
@@ -86,6 +102,18 @@ input {
   .carousel {
     margin: 50px;
   }
+
+  .navbar-toggler-icon {
+    width: 30px !important;
+  }
+
+  button {
+    padding: 1px !important;
+    border: 0 !important;
+  }
+
+  .copyright {
+    font-size: 0.6rem;
 }
 
 @media screen and (max-width: 320px) {

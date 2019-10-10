@@ -22,7 +22,9 @@ p {
 hr {
   border: dotted #512e40 6px;
   border-bottom: none;
-  width: 2%;
+  width:4%; 
+  margin-left:48% !important; 
+  margin-right:50% !important;
 }
 
 /* Containers */
@@ -97,12 +99,27 @@ hr {
 }
 
 @media screen and (max-width: 770px) {
+
+  #title .container-fluid {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 10px;
+  }
+
+  #articles {
+    padding: 0 30px 80px;
+  }
   .soap-logo {
-    width: 170px;
+    width: 150px;
+  }
+
+  h2 {
+    padding-top: 30px;
   }
 
   p {
     font-size: 1rem;
+    padding-bottom: 20px;
   }
 
   .section-heading {
@@ -113,10 +130,17 @@ hr {
   .article-title {
     font-size: 1rem;
   }
-}
 
-@media screen and (max-width: 320px) {
-  .soap-logo {
-    width: 150px;
+  .navbar-toggler-icon {
+    width: 30px !important;
+  }
+
+  button {
+    padding: 1px !important;
+    border: 0 !important;
+  }
+
+  .copyright {
+    font-size: 0.6rem;
   }
 }
