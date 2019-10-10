@@ -113,7 +113,11 @@ hr {
   font-size: 1rem;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 760px) {
+
+  #title .container-fluid {
+    padding: 30px;
+  }
 
   .big-heading {
     font-size: 1.5rem;
@@ -137,7 +141,7 @@ hr {
   }
 
   .soap-logo {
-    width: 120px;
+    width: 140px;
   }
 
   .card-body h2 {
@@ -149,13 +153,30 @@ hr {
   }
   
   .navbar-toggler-icon {
-    width: 20px !important;
+    width: 30px !important;
   }
 
   button {
-    font-size: 15px !important;
+    padding: 1px !important;
+    border: 0 !important;
+  }
+
+  .copyright {
+    font-size: 0.6rem;
+  }
+ }
+  
+ @media screen and (max-width: 990px) {
+  .soap-logo {
+    width: 200px;
+  }
+
+  .navbar-toggler-icon {
+    width: 30px !important;
+  }
+
+  button {
     padding: 1px !important;
     border: 0 !important;
   }
  }
-  
