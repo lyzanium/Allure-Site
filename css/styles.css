@@ -118,7 +118,7 @@ hr {
   #title .container-fluid {
     padding-top: 10px;
     padding-right: 30px;
-    padding-left: 15px;
+    padding-left: 10px;
   }
 
   .big-heading {
@@ -143,7 +143,7 @@ hr {
   }
 
   .soap-logo {
-    width: 140px;
+    width: 120px;
   }
 
   .card-body h2 {
