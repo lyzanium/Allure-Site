@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "Montserrat", serif;
   text-align: center;
@@ -29,7 +34,9 @@ p {
 hr {
   border: dotted #512e40 6px;
   border-bottom: none;
-  width: 4%;
+  width:4%; 
+  margin-left:48% !important; 
+  margin-right:50% !important;
 }
 
 /* Containers */
@@ -87,7 +94,7 @@ hr {
   padding: 100px;
 }
 
-.shopColumn {
+.column {
   padding: 3% 2%;
 }
 
@@ -135,6 +142,11 @@ hr {
   .card-body h2 {
     font-size: 1rem;
   }
+
+  #shop {
+    padding: 30px;
+  }
+  
 }
 
 @media screen and (max-width: 320px) {
