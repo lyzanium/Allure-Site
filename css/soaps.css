@@ -22,9 +22,9 @@ p {
 hr {
   border: dotted #512e40 6px;
   border-bottom: none;
-  width:4%; 
-  margin-left:48% !important; 
-  margin-right:50% !important;
+  width: 4%;
+  margin-left: 48% !important;
+  margin-right: 50% !important;
 }
 
 /* Navigation Bar */
@@ -69,7 +69,7 @@ input {
 }
 
 .container {
-  padding: 20px 30px 100px;;
+  padding: 20px 30px 100px;
   /* margin-top: 25px;
   margin-bottom: 100px; */
 }
@@ -79,7 +79,13 @@ label {
 }
 
 .back-to-shop {
-  margin: 80px 0 30px;
+  margin: 60px 0 30px;
+}
+
+/* BLOG PAGES */
+
+.back-to-blog {
+  margin: 50px 10px;
 }
 
 /* Footer Section */
@@ -158,4 +164,4 @@ label {
     padding: 1px !important;
     border: 0 !important;
   }
- }
+}
