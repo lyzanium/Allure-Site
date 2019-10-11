@@ -107,7 +107,7 @@ input {
     width: 30px !important;
   }
 
-  button {
+  .navbar-toggler {
     padding: 1px !important;
     border: 0 !important;
   }
