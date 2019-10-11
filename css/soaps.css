@@ -13,6 +13,20 @@ h5 {
   font-weight: 900;
 }
 
+p {
+  margin: 2% 10%;
+  color: #8f8f8f;
+  font-size: 1.3rem;
+}
+
+hr {
+  border: dotted #512e40 6px;
+  border-bottom: none;
+  width:4%; 
+  margin-left:48% !important; 
+  margin-right:50% !important;
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -37,6 +51,15 @@ h5 {
   padding: 3% 15%;
 }
 
+/* Soaps */
+
+.section-heading {
+  font-size: 3rem;
+  font-family: "Capriola", serif;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
 input {
   border: 1px solid #cccccc;
   font-weight: bold;
@@ -46,8 +69,9 @@ input {
 }
 
 .container {
-  margin-top: 25px;
-  margin-bottom: 100px;
+  padding: 20px 30px 100px;;
+  /* margin-top: 25px;
+  margin-bottom: 100px; */
 }
 
 label {
@@ -55,7 +79,7 @@ label {
 }
 
 .back-to-shop {
-  margin-bottom: 50px;
+  margin: 80px 0 30px;
 }
 
 /* Footer Section */
@@ -71,9 +95,14 @@ label {
 
 .copyright {
   font-size: 1rem;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 770px) {
+  .section-heading {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
 
   #title .container-fluid {
     padding-top: 10px;
@@ -120,8 +149,13 @@ label {
   }
 }
 
-/* @media screen and (max-width: 320px) {
-  .soap-logo {
-    width: 150px;
+@media screen and (max-width: 990px) {
+  .navbar-toggler-icon {
+    width: 30px !important;
   }
-} */
+
+  button {
+    padding: 1px !important;
+    border: 0 !important;
+  }
+ }
