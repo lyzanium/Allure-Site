@@ -8,8 +8,7 @@ body {
 
 h1,
 h2,
-h3,
-h4 {
+h5 {
   font-family: "Capriola", serif;
   font-weight: 900;
 }
@@ -48,7 +47,11 @@ input {
 
 .container {
   margin-top: 25px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
+}
+
+label {
+  margin-top: 20px;
 }
 
 .back-to-shop {
@@ -114,10 +117,11 @@ input {
 
   .copyright {
     font-size: 0.6rem;
+  }
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
   .soap-logo {
     width: 150px;
   }
-}
+} */
